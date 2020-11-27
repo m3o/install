@@ -22,6 +22,9 @@ SUDO="false"
 # Environment to set
 DEFAULT_ENV=dev
 
+## Environment url
+DEFAULT_ENV_URL=proxy.m3o.dev
+
 # Http request CLI
 HTTP_CLIENT=curl
 
@@ -164,7 +167,9 @@ cleanup() {
 
 setEnv() {
     echo "Environment set to 'dev'"
+    $MICRO_CLI_PATH add $DEFAULT_ENV $DEFAULT_ENV_URL
     $MICRO_CLI_PATH env set $DEFAULT_ENV
+    
 }
 
 # catch errors and print help
