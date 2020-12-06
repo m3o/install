@@ -20,7 +20,7 @@ OS=$(echo `uname`|tr '[:upper:]' '[:lower:]')
 SUDO="false"
 
 # Environment to set
-DEFAULT_ENV=dev
+DEFAULT_ENV=platform
 
 # Http request CLI
 HTTP_CLIENT=curl
@@ -163,7 +163,7 @@ cleanup() {
 }
 
 setEnv() {
-    echo "Environment set to 'dev'"
+    echo "Environment set to 'platform'"
     $MICRO_CLI_PATH env set $DEFAULT_ENV
 }
 
