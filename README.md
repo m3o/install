@@ -4,11 +4,21 @@ This repo serves as the location for install guides and scripts for M3O
 
 ## Contents
 
-- [micro](micro) - install script for micro (includes m3o specific setup)
+- [cli](cli) install script for the [m3o-cli](https://github.com/m3o/m3o-cli)
+- [micro](micro) - install script for [micro](https://github.com/micro/micro) (includes m3o specific setup)
 
 ## Usage
 
+Install the m3o cli
+
 ```sh
 ## follow the instructions
-curl -fsSL https://install.m3o.com/micro | /bin/bash
+curl -fssl https://install.m3o.com/cli | /bin/bash
+```
+
+Install the micro cli
+
+```sh
+## follow the instructions
+curl -fssl https://install.m3o.com/micro | /bin/bash
 ```
