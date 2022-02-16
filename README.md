@@ -2,11 +2,11 @@
 
 This repo serves as the location for install guides and scripts for M3O
 
-## Contents
+## Clients
 
 - [cli](#cli) - install script for the [m3o-cli](https://github.com/m3o/m3o-cli)
-- [js](#js) - install the m3o js client
-- [go](#go) - install the m3o go client
+- [js](#js) - install the [m3o-js](https://github.com/m3o/m3o-js) client
+- [go](#go) - install the [m3o-go](https://github.com/m3o/m3o-go) client
 
 ## Usage
 
