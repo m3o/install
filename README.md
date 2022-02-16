@@ -22,3 +22,15 @@ Install the micro cli
 ## follow the instructions
 curl -fssl https://install.m3o.com/micro | /bin/bash
 ```
+
+Install the m3o js client
+
+```bash
+npm install m3o
+```
+
+Install the m3o go client
+
+```bash
+go get go.m3o.com
+```
