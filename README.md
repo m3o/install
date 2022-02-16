@@ -1,13 +1,18 @@
-# M3O Install
+# Overview
 
 This repo serves as the location for install guides and scripts for M3O
 
 ## Contents
 
-- [cli](cli) install script for the [m3o-cli](https://github.com/m3o/m3o-cli)
-- [micro](micro) - install script for [micro](https://github.com/micro/micro) (includes m3o specific setup)
+- [cli](#cli) - install script for the [m3o-cli](https://github.com/m3o/m3o-cli)
+- [js](#js) - install the m3o js client
+- [go](#go) - install the m3o go client
 
 ## Usage
+
+A quick overview of how to use all the clients
+
+### CLI
 
 Install the m3o cli
 
@@ -16,12 +21,15 @@ Install the m3o cli
 curl -fssl https://install.m3o.com/cli | /bin/bash
 ```
 
-Install the micro cli
+To use the helloworld service
 
-```sh
-## follow the instructions
-curl -fssl https://install.m3o.com/micro | /bin/bash
 ```
+export M3O_API_TOKEN=xxxx
+
+m3o helloworld call --name=Alice
+```
+
+### Javascript
 
 Install the m3o js client
 
@@ -46,6 +54,8 @@ async function callTheHelloworldService() {
 
 callTheHelloworldService();
 ```
+
+### Go
 
 Install the m3o go client
 
