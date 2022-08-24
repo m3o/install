@@ -131,8 +131,6 @@ installFile() {
 
     if [ -f "$M3O_CLI_PATH" ]; then
         echo "$M3O_CLI_NAME installed into $M3O_INSTALL_DIR successfully."
-
-        $M3O_CLI_PATH --help
     else
         echo "Failed to install $M3O_CLI_NAME. Already exists."
         exit 1
