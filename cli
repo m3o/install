@@ -3,7 +3,7 @@ set -euo pipefail
 
 # GitHub Org and Repo to get archives from
 GITHUB_ORG="m3o"
-GITHUB_REPO="m3o"
+GITHUB_REPO="m3o-cli"
 
 # m3o install directory
 M3O_INSTALL_DIR="$HOME/bin"
